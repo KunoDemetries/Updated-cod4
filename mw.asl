@@ -36,7 +36,7 @@ vars.missions = new Dictionary<string,string> {
 
 
 split {
-        return (vars.missionList.Contains(current.map) && (current.map != old.map)) || ((current.map == "jeepride") && (current.boi != 32));
+        return (vars.missionList.Contains(current.map) && (current.map != old.map));
  }
  
  start
